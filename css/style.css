@@ -8,6 +8,11 @@ RESET
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: "Fredoka", sans-serif;
     font-style: normal;
@@ -36,5 +41,46 @@ main {
     color: #e53170;
 }
 
+.text-container{
+    margin-bottom: 50px;
+}
+
+.cards-container{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    width: 360px;
+    height: 105px;
+    background-color: #0f0e17;
+}
+
+.photo{
+    width: 105px;
+}
+
+.detail{
+    padding: 15px 15px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 12px;
+}
+
+span {
+    font-size: 14px;
+    color: #17ccf2;
+}
 
 
