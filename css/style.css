@@ -8,3 +8,33 @@ RESET
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+
+
+/*****************
+Header
+*/
+
+header {
+    width: 300px;
+    margin: 45px auto;
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.title h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #e53170;
+}
+
+
+
